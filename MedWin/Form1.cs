@@ -80,5 +80,10 @@ namespace MedWin
         {
             keybd_event(VK_MEDIA_PREV_TRACK, 0, KEYEVENTF_EXTENTEDKEY, IntPtr.Zero);
         }
+
+        private void MedWin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
