@@ -28,7 +28,17 @@ namespace MedWin
         public const int VK_MEDIA_PLAY_PAUSE = 0xB3;
         public const int VK_MEDIA_PREV_TRACK = 0xB1;
 
-        private void Mute()
+        /*protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == (Keys.Control | Keys.F))
+            {
+                MessageBox.Show("What the Ctrl+F?");
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }*/
+
+        private void VolMute()
         {
             SendMessageW(this.Handle, WM_APPCOMMAND, this.Handle,
                 (IntPtr)APPCOMMAND_VOLUME_MUTE);
@@ -49,6 +59,7 @@ namespace MedWin
         public MedWin()
         {
             InitializeComponent();
+            //this.KeyPreview = true; //important for keyboard shortcuts 
         }
 
         private void btnUp_Click(object sender, EventArgs e)
@@ -63,7 +74,7 @@ namespace MedWin
 
         private void btnMute_Click(object sender, EventArgs e)
         {
-            Mute();
+            VolMute();
         }
 
         private void btnPlay_Click(object sender, EventArgs e)
@@ -79,11 +90,6 @@ namespace MedWin
         private void btnPrv_Click(object sender, EventArgs e)
         {
             keybd_event(VK_MEDIA_PREV_TRACK, 0, KEYEVENTF_EXTENTEDKEY, IntPtr.Zero);
-        }
-
-        private void MedWin_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

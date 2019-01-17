@@ -43,7 +43,7 @@
             this.btnUp.BackColor = System.Drawing.SystemColors.Control;
             this.btnUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUp.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnUp.Location = new System.Drawing.Point(174, 58);
+            this.btnUp.Location = new System.Drawing.Point(171, 58);
             this.btnUp.Name = "btnUp";
             this.btnUp.Size = new System.Drawing.Size(75, 45);
             this.btnUp.TabIndex = 0;
@@ -71,7 +71,7 @@
             this.btnMute.BackColor = System.Drawing.SystemColors.Control;
             this.btnMute.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMute.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnMute.Location = new System.Drawing.Point(93, 58);
+            this.btnMute.Location = new System.Drawing.Point(92, 58);
             this.btnMute.Name = "btnMute";
             this.btnMute.Size = new System.Drawing.Size(75, 45);
             this.btnMute.TabIndex = 2;
@@ -83,7 +83,7 @@
             // 
             this.btnPlay.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnPlay.BackColor = System.Drawing.SystemColors.Control;
-            this.btnPlay.Location = new System.Drawing.Point(93, 9);
+            this.btnPlay.Location = new System.Drawing.Point(92, 9);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(75, 45);
             this.btnPlay.TabIndex = 3;
@@ -106,7 +106,7 @@
             // 
             this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNext.BackColor = System.Drawing.SystemColors.Control;
-            this.btnNext.Location = new System.Drawing.Point(174, 9);
+            this.btnNext.Location = new System.Drawing.Point(171, 9);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 45);
             this.btnNext.TabIndex = 5;
@@ -119,7 +119,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(259, 111);
+            this.ClientSize = new System.Drawing.Size(256, 111);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrv);
             this.Controls.Add(this.btnPlay);
@@ -134,7 +134,6 @@
             this.Name = "MedWin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MedWin";
-            this.Load += new System.EventHandler(this.MedWin_Load);
             this.ResumeLayout(false);
 
         }
