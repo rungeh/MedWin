@@ -46,7 +46,7 @@
             this.btnUp.Location = new System.Drawing.Point(171, 58);
             this.btnUp.Name = "btnUp";
             this.btnUp.Size = new System.Drawing.Size(75, 45);
-            this.btnUp.TabIndex = 0;
+            this.btnUp.TabIndex = 4;
             this.btnUp.Text = "Volume Up";
             this.btnUp.UseVisualStyleBackColor = false;
             this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
@@ -60,7 +60,7 @@
             this.btnDown.Location = new System.Drawing.Point(12, 58);
             this.btnDown.Name = "btnDown";
             this.btnDown.Size = new System.Drawing.Size(75, 45);
-            this.btnDown.TabIndex = 1;
+            this.btnDown.TabIndex = 2;
             this.btnDown.Text = "Volume Down";
             this.btnDown.UseVisualStyleBackColor = false;
             this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
@@ -74,7 +74,7 @@
             this.btnMute.Location = new System.Drawing.Point(92, 58);
             this.btnMute.Name = "btnMute";
             this.btnMute.Size = new System.Drawing.Size(75, 45);
-            this.btnMute.TabIndex = 2;
+            this.btnMute.TabIndex = 3;
             this.btnMute.Text = "Mute";
             this.btnMute.UseVisualStyleBackColor = false;
             this.btnMute.Click += new System.EventHandler(this.btnMute_Click);
@@ -86,7 +86,7 @@
             this.btnPlay.Location = new System.Drawing.Point(92, 9);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(75, 45);
-            this.btnPlay.TabIndex = 3;
+            this.btnPlay.TabIndex = 0;
             this.btnPlay.Text = "Play/Pause";
             this.btnPlay.UseVisualStyleBackColor = false;
             this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
@@ -97,7 +97,7 @@
             this.btnPrv.Location = new System.Drawing.Point(12, 9);
             this.btnPrv.Name = "btnPrv";
             this.btnPrv.Size = new System.Drawing.Size(75, 45);
-            this.btnPrv.TabIndex = 4;
+            this.btnPrv.TabIndex = 5;
             this.btnPrv.Text = "Previous";
             this.btnPrv.UseVisualStyleBackColor = false;
             this.btnPrv.Click += new System.EventHandler(this.btnPrv_Click);
@@ -109,7 +109,7 @@
             this.btnNext.Location = new System.Drawing.Point(171, 9);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 45);
-            this.btnNext.TabIndex = 5;
+            this.btnNext.TabIndex = 1;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
