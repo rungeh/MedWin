@@ -41,13 +41,14 @@
             // 
             this.btnUp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnUp.BackColor = System.Drawing.SystemColors.Control;
+            this.btnUp.BackgroundImage = global::MedWin.Properties.Resources.icons8_incrVol;
+            this.btnUp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUp.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnUp.Location = new System.Drawing.Point(171, 58);
             this.btnUp.Name = "btnUp";
             this.btnUp.Size = new System.Drawing.Size(75, 45);
             this.btnUp.TabIndex = 4;
-            this.btnUp.Text = "Volume Up";
             this.btnUp.UseVisualStyleBackColor = false;
             this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
             // 
@@ -55,13 +56,14 @@
             // 
             this.btnDown.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnDown.BackColor = System.Drawing.SystemColors.Control;
+            this.btnDown.BackgroundImage = global::MedWin.Properties.Resources.icons8_lowrVol;
+            this.btnDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDown.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnDown.Location = new System.Drawing.Point(12, 58);
             this.btnDown.Name = "btnDown";
             this.btnDown.Size = new System.Drawing.Size(75, 45);
             this.btnDown.TabIndex = 2;
-            this.btnDown.Text = "Volume Down";
             this.btnDown.UseVisualStyleBackColor = false;
             this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
             // 
@@ -69,13 +71,14 @@
             // 
             this.btnMute.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnMute.BackColor = System.Drawing.SystemColors.Control;
+            this.btnMute.BackgroundImage = global::MedWin.Properties.Resources.icons8_muteVol;
+            this.btnMute.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMute.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMute.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnMute.Location = new System.Drawing.Point(92, 58);
             this.btnMute.Name = "btnMute";
             this.btnMute.Size = new System.Drawing.Size(75, 45);
             this.btnMute.TabIndex = 3;
-            this.btnMute.Text = "Mute";
             this.btnMute.UseVisualStyleBackColor = false;
             this.btnMute.Click += new System.EventHandler(this.btnMute_Click);
             // 
@@ -83,22 +86,24 @@
             // 
             this.btnPlay.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnPlay.BackColor = System.Drawing.SystemColors.Control;
+            this.btnPlay.BackgroundImage = global::MedWin.Properties.Resources.icons8_resumeTrack;
+            this.btnPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnPlay.Location = new System.Drawing.Point(92, 9);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(75, 45);
             this.btnPlay.TabIndex = 0;
-            this.btnPlay.Text = "Play/Pause";
             this.btnPlay.UseVisualStyleBackColor = false;
             this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // btnPrv
             // 
             this.btnPrv.BackColor = System.Drawing.SystemColors.Control;
+            this.btnPrv.BackgroundImage = global::MedWin.Properties.Resources.icons8_startTrack;
+            this.btnPrv.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnPrv.Location = new System.Drawing.Point(12, 9);
             this.btnPrv.Name = "btnPrv";
             this.btnPrv.Size = new System.Drawing.Size(75, 45);
             this.btnPrv.TabIndex = 5;
-            this.btnPrv.Text = "Previous";
             this.btnPrv.UseVisualStyleBackColor = false;
             this.btnPrv.Click += new System.EventHandler(this.btnPrv_Click);
             // 
@@ -106,11 +111,12 @@
             // 
             this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNext.BackColor = System.Drawing.SystemColors.Control;
+            this.btnNext.BackgroundImage = global::MedWin.Properties.Resources.icons8_endTrack;
+            this.btnNext.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnNext.Location = new System.Drawing.Point(171, 9);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(75, 45);
             this.btnNext.TabIndex = 1;
-            this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = false;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
@@ -128,7 +134,7 @@
             this.Controls.Add(this.btnUp);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MedWin";
