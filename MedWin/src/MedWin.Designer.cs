@@ -60,10 +60,10 @@
             this.btnDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDown.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnDown.Location = new System.Drawing.Point(12, 58);
+            this.btnDown.Location = new System.Drawing.Point(92, 58);
             this.btnDown.Name = "btnDown";
             this.btnDown.Size = new System.Drawing.Size(75, 45);
-            this.btnDown.TabIndex = 2;
+            this.btnDown.TabIndex = 3;
             this.btnDown.UseVisualStyleBackColor = false;
             this.btnDown.Click += new System.EventHandler(this.btnDown_Click);
             // 
@@ -75,10 +75,10 @@
             this.btnMute.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMute.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMute.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnMute.Location = new System.Drawing.Point(92, 58);
+            this.btnMute.Location = new System.Drawing.Point(12, 58);
             this.btnMute.Name = "btnMute";
             this.btnMute.Size = new System.Drawing.Size(75, 45);
-            this.btnMute.TabIndex = 3;
+            this.btnMute.TabIndex = 2;
             this.btnMute.UseVisualStyleBackColor = false;
             this.btnMute.Click += new System.EventHandler(this.btnMute_Click);
             // 
